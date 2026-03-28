@@ -230,12 +230,13 @@ footer{background:var(--dark2);padding:30px 72px 18px;}
 
 @media(max-width:768px){
   /* NAV */
-  nav{padding:14px 16px;}
+  nav{padding:12px 16px;gap:8px;}
   .nav-links{display:none;}
-  #mob-cta{display:block !important;}
-  .logo{font-size:17px;gap:7px;}
-  .logo-nav-img{height:26px;max-width:38px;}
-  .logo-sub{font-size:8px;letter-spacing:1.5px;}
+  #mob-cta{display:block !important;padding:10px 14px;font-size:13px;white-space:nowrap;}
+  .logo{font-size:22px;gap:8px;flex:1;min-width:0;}
+  .logo-text{min-width:0;}
+  .logo-nav-img{height:28px;max-width:40px;flex-shrink:0;}
+  .logo-sub{font-size:9px;letter-spacing:1.5px;}
 
   /* HERO */
   .hero{grid-template-columns:1fr;min-height:auto;}
